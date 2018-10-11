@@ -4,54 +4,31 @@ h1 {
   font-size: 50px;
 }
 
-img.husky {
-  width: 300px;
+img.column {
+  width: 33%;
   float: left;
   background-color: #F7C20E;
 
 }
-.husky {
-   width: 300px;
+.column {
+   width: 33%;
    float: left;
    background-color: #F7C20E;
    text-align: center;
 }
 
-img.pit {
-   width: 300px;
-   float: left;
-
-}
-.pit {
-    width: 300px;
-    float: left;
-    background-color: #DBF70E;
-    text-align: center;
-}
-
-img.rot {
-    width: 300px;
-    float: left;
-}
-.rot {
-     width: 300px;
-     float: left;
-     background-color: #4EF70E;
-     text-align: center;
-}
-
-.husky p {
-  font-style: italic;
-}
-
-.pit p {
-  font-weight: bold;
-}
-
-.rot p {
-  color: gray;
-}
-
 body {
-  margin: 300px;
+  margin: ;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: red;
+  }
 }
